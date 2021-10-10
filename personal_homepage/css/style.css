@@ -1,0 +1,82 @@
+body {
+    background-image: url("../res/images/background.jpg");
+    color: rgb(253, 253, 253);
+}
+/* .navbar{
+    display: flex;
+}
+
+.navbar .clock{
+    justify-self: right;
+} */
+
+.main {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-type1{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.flex-box-type1-img, .flex-box-type1-disc{
+    border: 1px #ccc solid;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.flex-box-type1-img{
+    background-color: white;
+    flex: 1;
+}
+.flex-box-type1-disc{
+    flex: 10;
+}
+
+.edu div {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.edu, .contact {
+    display: none;
+}
+
+.flex-type1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.clock{
+    float: right;
+}
+
+.edu-mtech{
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 15px;
+}
+table {
+    width: 100%;
+    border-spacing: 30px;
+    background-color: white;
+    color: black;
+}
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+  
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
