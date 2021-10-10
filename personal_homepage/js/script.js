@@ -61,7 +61,7 @@ window.onload = () => {
 
     home_div = document.getElementById("home");
 
-    home_div.appendChild(getDivType1("#", "res/images/profile_picture.png", home_disc));
+    home_div.appendChild(getDivType1("#", "res/images/pp.jpg", home_disc));
 
     home_div.appendChild(document.createElement("br"));
     home_div.appendChild(document.createElement("br"));
